@@ -1,0 +1,44 @@
+.Logincontainer {
+  max-width: 600px;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Semi-transparent border */
+  border-radius: 15px; /* Increased for a softer look */
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Background blur */
+  box-shadow: 0 4px 15px rgba(131, 124, 124, 0.2); /* Soft shadow */
+  color: #fff; /* Text color */
+}
+
+.LoginPage {
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px; /* Adds space between letters for modern look */
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-3px); /* Slight lift effect */
+}

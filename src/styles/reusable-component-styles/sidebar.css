@@ -1,0 +1,43 @@
+/* Menu Container */
+.menu-container {
+  padding-top: 4%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-align: right;
+  z-index: 1000; /* Added z-index to ensure visibility */
+}
+
+.menu-toggle {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.menu-toggle:hover {
+  background-color: white;
+  color: rgb(23, 63, 128);
+}
+
+/* Menu Options */
+.menu-options {
+  margin-top: 30%;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-options li {
+  margin-top: 20%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: white;
+}
+
+.menu-options li:hover {
+  font-size: 1.4rem;
+}

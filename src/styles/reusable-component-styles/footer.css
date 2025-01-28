@@ -1,0 +1,29 @@
+.footer {
+  height: 20vh;
+  color: #01012a; /* Changed from aliceblue to a darker color for better contrast */
+  background-color: antiquewhite;
+  width: 100%;
+  margin: 0; /* Ensure no margin is applied */
+  padding: 0; /* Ensure no padding is applied */
+}
+
+.footer-slogan {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.footer-slogan a {
+  color: #01012a; /* Changed to a darker color for better visibility */
+}
+
+.footer-slogan a:hover {
+  color: #005582; /* Darker color on hover */
+}
+
+.social-icon {
+  font-size: 1.5rem; /* Adjust icon size */
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
