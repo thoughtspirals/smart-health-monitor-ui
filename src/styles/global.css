@@ -1,0 +1,16 @@
+.Project-title {
+  padding: 40px;
+  position: absolute;
+  top: 45%;
+  left: 1%;
+  transform: translateY(-50%);
+}
+
+.pageTitle {
+  font-size: 4rem;
+  font-family: "Helvetica Neue", sans-serif; /* Smooth font */
+  color: #fff; /* White color */
+  letter-spacing: 2px; /* Slight letter spacing for readability */
+  font-weight: bold; /* Bold for emphasis */
+  line-height: 1.2; /* Balanced line height */
+}
